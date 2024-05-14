@@ -37,10 +37,10 @@ alias vol2='python2 /opt/volatility/vol.py'
 sudo docker run -it --rm -v $PWD:/volatility ubuntu:20.04 /bin/bash
 ```
 
--it : run the container and drop us in interactive session of `/bin/bash` shell
---rm : remove previous container if present
--v : verbose
-\$PWD:/volatility : mount the `/volatility` directory present in current working directory of user in the docker container
+-it : run the container and drop us in interactive session of `/bin/bash` shell <br>
+--rm : remove previous container if present <br>
+-v : verbose <br>
+\$PWD:/volatility : mount the `/volatility` directory present in current working directory of user in the docker container <br>
 
 #### install dependencies
 ```
@@ -65,3 +65,5 @@ zip ubuntu20.04.zip module.dwarf /boot/System.map-5.4.0-166-generic
 ```
 sudo apt update && sudo apt install linux-image-5.4.0-166-generic linux-headers-5.4.0-166-generic dwarfdump gcc zip
 ```
+
+-- follow above steps to create custom profile
