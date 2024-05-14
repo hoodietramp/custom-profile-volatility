@@ -44,7 +44,7 @@ sudo docker run -it --rm -v $PWD:/volatility ubuntu:20.04 /bin/bash
 
 #### install dependencies
 ```
-apt update && apt install -y linux-image-5.4.0-166-generic linux-headers-5.4.0-166-generic dwardump make gcc zip
+apt update && apt install -y linux-image-5.4.0-166-generic linux-headers-5.4.0-166-generic build-essential dwarfdump make gcc zip
 ```
 
 #### create custom profile
