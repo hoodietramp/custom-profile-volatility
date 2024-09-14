@@ -39,7 +39,7 @@ sudo docker run -it --rm -v $PWD:/volatility ubuntu:20.04 /bin/bash
 
 -it : run the container and drop us in interactive session of `/bin/bash` shell <br>
 --rm : clean up the container and remove the file system when the container exits <br>
--v : verbose <br>
+-v : mount a volume <br>
 \$PWD:/volatility : mount the `/volatility` directory present in current working directory of user in the docker container <br>
 
 #### install dependencies
